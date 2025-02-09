@@ -2,46 +2,32 @@
 
 <html>
   <head>
-    <title>Social Links Profile</title>
-    <meta charset="utf-8"
-          name="viewport">
-    <style>
-      body{background-color: black;}
-      body>.PFP>img{
-          border-radius: 50%;
-          width:50px;
-          height:50px;
-          margin: 10px;
-          }
-      body>section.Title>#id01{color:white}
-      body>section.Title>#id02{color: hsl(75, 94%, 57%)}
-      .container{
-          height: 300px;;
-          width: 150px;
-          background-color: hsl(0, 0%, 20%);
-          border-radius: 10px;
-          position:fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,-50%)
-          }
-    </style>
+    <title>Social Links Profile</title>\
+    <link rel="stylesheet" href="design.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <!--This is for the grey boarder around the profile-->
-    <div class="container"></div>
-    <!--Jessica's Image-->
-    <section class="PFP">
-      <img src="assets/images/avatar-jessica.jpeg" alt="oops did not load"/>
-    </section>
-    <!--The Name & Location-->
-    <section class="Title">
-      <h1 id="id01">Jessica Randall</h1>
-      <h2 id="id02">London, United Kingdom</h2>
-    </section>
-    <!--Description-->
-    <div>
-      <p>"Front-end developer and avid raeder."</p>
+    <div class="container">
+      <!--Jessica's Image-->
+      <section class="PFP">
+        <img src="assets/images/avatar-jessica.jpeg" alt="oops did not load"/>
+      </section>
+    </div>
+    <!--The Strings-->
+    <div class="Strings">
+      <section class="Titles">
+        <h1 id="id01">Jessica Randall</h1>
+        <p id="id02">London, United Kingdom</p>
+      </section>
+      <section class="normalStrings">
+        <p id="Description">"Front-end developer and avid raeder."</p>
+        <a href="https://github.com" target="_blank"><button id="GitHub">Github</button></a>
+        <a href="https://frontendmentor.io" target="_blank"><button id="frontendMentor">Frontend Mentor</button></a>
+        <a href="https://www.linkedin.com/in/barbozajoaquin" target="_blank"><button id="Linkedln">Linkedln</button></a>
+        <a href="https://twitter.com" target="_blank"><button id="Twitter">Twitter</button></a>
+        <a href="https://instagram.com" target="_blank"><button id="Instagram">Instagram</button></a>
+      </section>
     </div>
   </body>
 </html>
