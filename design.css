@@ -67,12 +67,6 @@ div.container>section.PFP>img{
     border-color: hsl(0, 0%, 20%);
     font-weight: 700;
 }
-.Strings>.normalStrings>a>#GitHub:hover{
-    transition-duration: 0.7s;
-    background-color: hsl(75, 94%, 57%);
-    border-color: hsl(75, 94%, 57%);
-    color: black;
-}
 /*Frontend Mentor Button*/
 .Strings>.normalStrings>a>#frontendMentor{
     background-color: hsl(0, 0%, 20%);
@@ -88,12 +82,6 @@ div.container>section.PFP>img{
     border-style: solid;
     border-color: hsl(0, 0%, 20%);
     font-weight: 700;
-}
-.Strings>.normalStrings>a>#frontendMentor:hover{
-    transition-duration: 0.7s;
-    background-color: hsl(75, 94%, 57%);
-    border-color: hsl(75, 94%, 57%);
-    color: black;
 }
 /*Linkedln Button*/
 .Strings>.normalStrings>a>#Linkedln{
@@ -111,12 +99,6 @@ div.container>section.PFP>img{
     border-color: hsl(0, 0%, 20%);
     font-weight: 700;
 }
-.Strings>.normalStrings>a>#Linkedln:hover{
-    transition-duration: 0.7s;
-    background-color: hsl(75, 94%, 57%);
-    border-color: hsl(75, 94%, 57%);
-    color: black;
-}
 /*Twitter Button*/
 .Strings>.normalStrings>a>#Twitter{
     background-color: hsl(0, 0%, 20%);
@@ -132,12 +114,6 @@ div.container>section.PFP>img{
     border-style: solid;
     border-color: hsl(0, 0%, 20%);
     font-weight: 700;
-}
-.Strings>.normalStrings>a>#Twitter:hover{
-    transition-duration: 0.7s;
-    background-color: hsl(75, 94%, 57%);
-    border-color: hsl(75, 94%, 57%);
-    color: black;
 }
 /*Instagram Button*/
 .Strings>.normalStrings>a>#Instagram{
@@ -155,7 +131,7 @@ div.container>section.PFP>img{
     border-color: hsl(0, 0%, 20%);
     font-weight: 700;
 }
-.Strings>.normalStrings>a>#Instagram:hover{
+button[id]:hover{
     transition-duration: 0.7s;
     background-color: hsl(75, 94%, 57%);
     border-color: hsl(75, 94%, 57%);
